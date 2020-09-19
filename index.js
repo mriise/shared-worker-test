@@ -33,7 +33,6 @@ function App (props) {
 						getSession()
 						break;
 					case "result":
-						console.log("le", letters)
 						sessionProfile = e.data.sessionProfile
 						setLetters(sessionProfile.e)
 						console.log(sessionProfile.e)
