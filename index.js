@@ -53,6 +53,7 @@ render(
 	html`
 	<button onclick=${e => setSession()}>set</button> <br/>
 	<button onclick=${e => getSession()}>get</button>
+	open another tab to view the shared state
 	<${App}/>
 
 `, document.body);
